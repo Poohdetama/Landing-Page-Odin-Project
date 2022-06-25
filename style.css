@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.top {
+    padding: 0px 180px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+
+.header, .hero {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    gap: 415px;
+}
+
+.hero {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-statement {
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 300px;
+}
+
+.subtext, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 400px;
+}
+
+.left-link {
+    margin-top: 12px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.placeholder {
+    white-space: nowrap;
+    background-color: #6e6b6bef;
+    padding: 100px 125px;
+}
+
+.sign-up {
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+    background: #457bd3;
+    padding: 8px 24px;
+    border-radius: 6px;
+}
+
+/* Second part */
+
+.middle {
+    text-align: center;
+    padding: 50px 180px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 36px;
+}
+
+.square {
+    background: white;
+    padding: 65px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.text {
+    max-width: 145px;
+}
+
+/* new section */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 750px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: 800;
+    padding-right: 24px;
+    font-size: 24px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~new section */
+
+.footer {
+    padding: 100px 150px 100px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    gap: 100px;
+    background-color: #457bd3;
+    padding: 50px 100px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.action {
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.right-button {
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+    background: #457bd3;
+    padding: 8px 24px;
+    border-radius: 6px;
+}
